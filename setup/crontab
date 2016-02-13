@@ -1,0 +1,17 @@
+MAILTO=""
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+YOUR_HOME_NETWORK=jsqrd
+
+# Loop
+#* * * * * . $HOME/.profile; killall -g --older-than 5m openaps; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps loop' && echo OpenAPS already running || openaps loop ) 2>&1 | logger -t openaps-loop
+
+# Backup cron and everything to github hourly
+0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > /$HOME/$OPENAPS_DIR/setup/crontab
+1 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
+
+# Reset wifi as needed
+*/5 * * * * ~/src/edison_wifi/wifi.sh
+*/5 * * * * ( (wpa_cli status | grep $YOUR_HOME_NETWORK > /dev/null && echo already on $YOUR_HOME_NETWORK) || (wpa_cli scan > /dev/null && wpa_cli scan_results | egrep $YOUR_HOME_NETWORK > /dev/null && wpa_cli select_network $(wpa_cli list_networks | grep $YOUR_HOME_NETWORK | cut -f 1) && echo switched to $YOUR_HOME_NETWORK && sleep 15 && (for i in $(wpa_cli list_networks | grep DISABLED | cut -f 1); do wpa_cli enable_network $i > /dev/null; done) && echo and re-enabled other networks) ) 2>&1 | logger -t wifi-select
+
+# Make sure git is not f'd up
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && oref0-reset-git
