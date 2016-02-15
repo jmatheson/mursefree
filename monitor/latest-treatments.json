@@ -1,16 +1,70 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style type="text/css">
-        html, body, iframe { margin: 0; padding: 0; height: 100%; }
-        iframe { display: block; width: 100%; border: none; }
-      </style>
-    <title>Application Error</title>
-    </head>
-    <body>
-      <iframe src="//s3.amazonaws.com/heroku_pages/error.html">
-        <p>Application Error</p>
-      </iframe>
-    </body>
-    </html>
+{
+  "_id": "56c2386937663704c8472e4a",
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-02-15T12:38:58 head[4], body[0] op[0x01]",
+    "timestamp": "2016-02-15T12:38:58-08:00",
+    "_body": "",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0b244c04445604480014",
+        "data": [
+          {
+            "amount": 0.9,
+            "age": 76
+          },
+          {
+            "amount": 1.7,
+            "age": 86
+          },
+          {
+            "amount": 1.8,
+            "age": 256
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "programmed": 2,
+    "duration": 0,
+    "amount": 2,
+    "_head": "01141400",
+    "type": "normal",
+    "_date": "3aa62c0f10"
+  },
+  "timestamp": "2016-02-15T12:38:58-08:00",
+  "created_at": "2016-02-15T12:38:58-08:00",
+  "carbs": 18,
+  "ratio": "9",
+  "wizard": {
+    "unknown_byte[8]": 0,
+    "_type": "BolusWizard",
+    "bg": 0,
+    "_byte[5]": 0,
+    "unknown_byte[10]": 0,
+    "_description": "BolusWizard 2016-02-15T12:38:58 head[2], body[13] op[0x5b]",
+    "timestamp": "2016-02-15T12:38:58-08:00",
+    "_body": "125009195a0014000000001469",
+    "bg_target_high": 105,
+    "sensitivity": 25,
+    "carb_ratio": 9,
+    "food_estimate": 2,
+    "unabsorbed_insulin_total": 0,
+    "correction_estimate": 0,
+    "carb_input": 18,
+    "_head": "5b00",
+    "unabsorbed_insulin_count": "??",
+    "_byte[7]": 0,
+    "bolus_estimate": 2,
+    "_date": "3aa60c0f10",
+    "bg_target_low": 90
+  },
+  "eventType": "<none>",
+  "insulin": 2,
+  "notes": "Normal bolus with wizard.\nProgrammed bolus 2\nDelivered bolus 2\nPercent delivered:  100%\nFood estimate 2\nCorrection estimate 0\nBolus estimate 2\nTarget low 90\nTarget high 105\nHypothetical glucose delta -50",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
+  "enteredBy": "openaps://medtronic/722"
+}
