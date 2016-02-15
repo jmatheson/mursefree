@@ -7,21 +7,21 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-15T16:37:20.000Z", 
+      "timestamp": "2016-02-15T16:40:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 128, 
-    "clock": "2016-02-15T08:35:21"
+    "clock": "2016-02-15T08:38:42"
   }, 
   "openaps": {
     "iob": {
-      "netbasalinsulin": 0.05, 
-      "timestamp": "2016-02-15T16:37:47.000Z", 
-      "basaliob": -0.493, 
-      "activity": 0.0053, 
-      "bolussnooze": 1.747, 
-      "iob": 1.291
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2016-02-15T16:40:47.000Z", 
+      "basaliob": -0.599, 
+      "activity": 0.0058, 
+      "bolussnooze": 1.716, 
+      "iob": 1.176
     }, 
     "enacted": {
       "requested": {
