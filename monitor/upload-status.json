@@ -7,39 +7,51 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-15T19:04:33.000Z", 
+      "timestamp": "2016-02-15T19:07:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 125.2, 
-    "clock": "2016-02-15T11:02:42"
+    "reservoir": 125.1, 
+    "clock": "2016-02-15T11:05:43"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 177, 
+      "temp": "absolute", 
+      "snoozeBG": 270, 
+      "timestamp": "2016-02-15T19:07:59.000Z", 
+      "rate": 5.1, 
+      "reason": "Eventual BG 362>=105, adj. req. rate:15.9 to maxSafeBasal:5.1, no temp, setting 5.1U/hr", 
+      "eventualBG": 362, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 17 Boluses: 1.8 Target: 92.5 Deviation: 92 BGI: -0.49", 
+      "tick": "+99"
+    }, 
     "iob": {
       "netbasalinsulin": -0.65, 
-      "timestamp": "2016-02-15T19:04:59.000Z", 
-      "basaliob": -0.352, 
-      "activity": 0.0041, 
+      "timestamp": "2016-02-15T19:07:58.000Z", 
+      "basaliob": -0.329, 
+      "activity": 0.0039, 
       "bolussnooze": 0, 
-      "iob": -0.03
+      "iob": -0.032
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 5.1, 
         "temp": "absolute"
       }, 
-      "bg": 81, 
+      "bg": 177, 
       "temp": "absolute", 
-      "snoozeBG": 84, 
-      "timestamp": "2016-02-15T16:29:10.000Z", 
-      "reason": "Eventual BG 17<90, setting -0.46U/hr", 
-      "rate": 0, 
-      "eventualBG": 17, 
+      "snoozeBG": 270, 
+      "timestamp": "2016-02-15T19:08:10.000Z", 
+      "reason": "Eventual BG 362>=105, adj. req. rate:15.9 to maxSafeBasal:5.1, no temp, setting 5.1U/hr", 
+      "rate": 5.075, 
+      "eventualBG": 362, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 17 Boluses: 1.8 Target: 97.5 Deviation: -25 BGI: -0.5", 
-      "tick": -5
+      "mealAssist": "On: Carbs: 17 Boluses: 1.8 Target: 92.5 Deviation: 92 BGI: -0.49", 
+      "tick": "+99"
     }
   }
 }
