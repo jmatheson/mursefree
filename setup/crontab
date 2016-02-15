@@ -3,7 +3,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 YOUR_HOME_NETWORK=jsqrd
 
 # Loop
-#* * * * * . $HOME/.profile; killall -g --older-than 5m openaps; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps loop' && echo OpenAPS already running || openaps loop ) 2>&1 | logger -t openaps-loop
+* * * * * . $HOME/.profile; killall -g --older-than 5m openaps; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps loop' && echo OpenAPS already running || openaps loop ) 2>&1 | logger -t openaps-loop
 
 # Backup cron and everything to github hourly
 0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > /$HOME/$OPENAPS_DIR/setup/crontab
