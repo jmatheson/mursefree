@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "_type": "Model522ResultTotals",
+    "_description": "Model522ResultTotals 2016-02-17T00:00:00 head[1], body[41] op[0x6d]",
+    "timestamp": "2016-02-17T00:00:00-08:00",
+    "_body": "0500a1a1a1010000093405d03f036425006a03642501cc3500580a01402509050100030c00e8000000",
+    "_head": "6d",
+    "_date": "3010",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Model522ResultTotals",
+    "created_at": "2016-02-17T00:00:00-08:00",
+    "enteredBy": "openaps://medtronic/722",
+    "eventType": "Note",
+    "notes": "Model522ResultTotals 722 "
+  },
+  {
+    "_type": "ResultDailyTotal",
+    "_description": "ResultDailyTotal 2016-02-17T00:00:00 head[5], body[0] op[0x07]",
+    "timestamp": "2016-02-17T00:00:00-08:00",
+    "_body": "",
+    "_head": "0700000934",
+    "valid_date": "2016-02-16",
+    "_date": "3010",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ResultDailyTotal",
+    "created_at": "2016-02-17T00:00:00-08:00",
+    "enteredBy": "openaps://medtronic/722",
+    "eventType": "Note",
+    "notes": "ResultDailyTotal 722 "
+  }
+]
