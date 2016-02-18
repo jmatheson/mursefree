@@ -7,33 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-18T10:37:40.000Z", 
+      "timestamp": "2016-02-18T10:43:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 257.1, 
-    "clock": "2016-02-18T02:35:32-08:00"
+    "clock": "2016-02-18T02:41:24-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 73, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2016-02-18T10:37:59.000Z", 
+      "snoozeBG": 89, 
+      "timestamp": "2016-02-18T10:43:59.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 87<90, setting -0.63U/hr", 
-      "eventualBG": 87, 
+      "reason": "Eventual BG 89<90, setting -0.31U/hr", 
+      "eventualBG": 89, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -9 BGI: 0.46", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -9 BGI: 0.53", 
       "tick": -1
     }, 
     "iob": {
-      "netbasalinsulin": -1.1, 
-      "timestamp": "2016-02-18T10:37:58.000Z", 
-      "basaliob": -0.908, 
-      "activity": -0.0037, 
+      "netbasalinsulin": -1.2, 
+      "timestamp": "2016-02-18T10:43:59.000Z", 
+      "basaliob": -0.985, 
+      "activity": -0.0042, 
       "bolussnooze": 0, 
-      "iob": -0.908
+      "iob": -0.985
     }, 
     "enacted": {
       "requested": {
@@ -43,14 +43,14 @@
       }, 
       "bg": 73, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2016-02-18T10:38:11.000Z", 
-      "reason": "Eventual BG 87<90, setting -0.63U/hr", 
+      "snoozeBG": 89, 
+      "timestamp": "2016-02-18T10:44:11.000Z", 
+      "reason": "Eventual BG 89<90, setting -0.31U/hr", 
       "rate": 0, 
-      "eventualBG": 87, 
+      "eventualBG": 89, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -9 BGI: 0.46", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -9 BGI: 0.53", 
       "tick": -1
     }
   }
