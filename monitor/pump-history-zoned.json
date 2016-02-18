@@ -1,5 +1,21 @@
 [
   {
+    "_type": "Battery", 
+    "_description": "Battery 2016-02-18T12:09:49 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-02-18T12:09:49-08:00", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "31890c1210"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-02-18T12:09:28 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-02-18T12:09:28-08:00", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "1c890c1210"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-18T12:01:02 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-18T12:01:02-08:00", 
