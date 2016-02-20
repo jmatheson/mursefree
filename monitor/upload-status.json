@@ -7,33 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-20T14:35:40.000Z", 
+      "timestamp": "2016-02-20T14:41:23.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 171.9, 
-    "clock": "2016-02-20T06:33:44-08:00"
+    "clock": "2016-02-20T06:39:23-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 91, 
       "temp": "absolute", 
-      "snoozeBG": 80, 
-      "timestamp": "2016-02-20T14:36:00.000Z", 
+      "snoozeBG": 83, 
+      "timestamp": "2016-02-20T14:41:42.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 80<90, setting -1.75U/hr", 
-      "eventualBG": 80, 
+      "reason": "Eventual BG 83<90, setting -1.27U/hr", 
+      "eventualBG": 83, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -13 BGI: 0.2", 
-      "tick": -6
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -13 BGI: 0.21", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": -0.35, 
-      "timestamp": "2016-02-20T14:35:59.000Z", 
-      "basaliob": -0.088, 
-      "activity": -0.0016, 
+      "netbasalinsulin": -0.45, 
+      "timestamp": "2016-02-20T14:41:41.000Z", 
+      "basaliob": -0.181, 
+      "activity": -0.0017, 
       "bolussnooze": 0, 
-      "iob": -0.088
+      "iob": -0.181
     }, 
     "enacted": {
       "requested": {
@@ -43,15 +43,15 @@
       }, 
       "bg": 91, 
       "temp": "absolute", 
-      "snoozeBG": 80, 
-      "timestamp": "2016-02-20T14:36:13.000Z", 
-      "reason": "Eventual BG 80<90, setting -1.75U/hr", 
+      "snoozeBG": 83, 
+      "timestamp": "2016-02-20T14:42:03.000Z", 
+      "reason": "Eventual BG 83<90, setting -1.27U/hr", 
       "rate": 0, 
-      "eventualBG": 80, 
+      "eventualBG": 83, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -13 BGI: 0.2", 
-      "tick": -6
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -13 BGI: 0.21", 
+      "tick": "+0"
     }
   }
 }
