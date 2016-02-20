@@ -7,39 +7,51 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-20T10:37:33.000Z", 
+      "timestamp": "2016-02-20T10:40:38.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 175.8, 
-    "clock": "2016-02-20T02:35:22-08:00"
+    "reservoir": 175.7, 
+    "clock": "2016-02-20T02:38:44-08:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 119, 
+      "temp": "absolute", 
+      "snoozeBG": 91, 
+      "timestamp": "2016-02-20T10:40:57.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 91>90 but Delta -7 < Exp. Delta -1.8; cancel", 
+      "eventualBG": 91, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -4 BGI: -1.97", 
+      "tick": -7
+    }, 
     "iob": {
-      "netbasalinsulin": 3.45, 
-      "timestamp": "2016-02-20T10:37:51.000Z", 
-      "basaliob": 1.014, 
-      "activity": 0.0159, 
+      "netbasalinsulin": 3.5, 
+      "timestamp": "2016-02-20T10:40:56.000Z", 
+      "basaliob": 0.978, 
+      "activity": 0.0158, 
       "bolussnooze": 0, 
-      "iob": 1.014
+      "iob": 0.978
     }, 
     "enacted": {
       "requested": {
-        "duration": 30, 
-        "rate": 1.45, 
+        "duration": 0, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 126, 
+      "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 106, 
-      "timestamp": "2016-02-20T10:33:05.000Z", 
-      "reason": "Eventual BG 106>=105, no temp, setting 1.43U/hr", 
-      "rate": 1.425, 
-      "eventualBG": 106, 
+      "snoozeBG": 91, 
+      "timestamp": "2016-02-20T10:41:09.000Z", 
+      "reason": "Eventual BG 91>90 but Delta -7 < Exp. Delta -1.8; cancel", 
+      "rate": 0, 
+      "eventualBG": 91, 
       "recieved": true, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: 5 BGI: -2", 
-      "tick": -1
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: -4 BGI: -1.97", 
+      "tick": -7
     }
   }
 }
