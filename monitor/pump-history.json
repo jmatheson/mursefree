@@ -1,5 +1,13 @@
 [
   {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-02-19T18:35:53 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-02-19T18:35:53", 
+    "_body": "", 
+    "_head": "1e00", 
+    "_date": "35a3121310"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-02-19T18:00:53 head[2], body[0] op[0x16]", 
@@ -1341,29 +1349,5 @@
     "food_estimate": 1.8, 
     "bg_target_low": 90, 
     "sensitivity": 25
-  }, 
-  {
-    "programmed": 1.0, 
-    "_type": "Bolus", 
-    "type": "normal", 
-    "_description": "Bolus 2016-02-19T12:10:10 head[4], body[0] op[0x01]", 
-    "duration": 0, 
-    "timestamp": "2016-02-19T12:10:10", 
-    "_body": "", 
-    "_head": "010a0a00", 
-    "amount": 1.0, 
-    "_date": "0a8a2c1310"
-  }, 
-  {
-    "programmed": 1.0, 
-    "_type": "Bolus", 
-    "type": "normal", 
-    "_description": "Bolus 2016-02-19T12:09:20 head[4], body[0] op[0x01]", 
-    "duration": 0, 
-    "timestamp": "2016-02-19T12:09:20", 
-    "_body": "", 
-    "_head": "010a0a00", 
-    "amount": 1.0, 
-    "_date": "14892c1310"
   }
 ]
