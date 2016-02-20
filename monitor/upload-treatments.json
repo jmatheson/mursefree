@@ -1,58 +1,71 @@
 [
   {
-    "carbs": "0",
-    "ratio": "9",
-    "wizard": {
-      "correction_estimate": 0,
-      "unknown_byte[10]": 0,
-      "_description": "BolusWizard 2016-02-19T21:04:15 head[2], body[13] op[0x5b]",
-      "bg_target_low": 90,
-      "_body": "005009195a0000000000000069",
-      "_byte[5]": 0,
-      "_head": "5b00",
-      "_byte[7]": 0,
-      "bolus_estimate": 0,
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2016-02-19T21:32:02 head[4], body[0] op[0x01]",
+      "timestamp": "2016-02-19T21:32:02-08:00",
+      "_body": "",
       "appended": [
         {
           "_type": "UnabsorbedInsulinBolus",
           "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
           "_body": "",
-          "_head": "5c0b3a20042a2a0416d814",
+          "_head": "5c0b3c1e043a3c042a4604",
           "data": [
             {
+              "amount": 1.5,
+              "age": 30
+            },
+            {
               "amount": 1.45,
-              "age": 32
+              "age": 60
             },
             {
               "amount": 1.05,
-              "age": 42
-            },
-            {
-              "amount": 0.55,
-              "age": 472
+              "age": 70
             }
           ],
           "_date": ""
         }
       ],
-      "food_estimate": 0,
-      "carb_input": 0,
-      "sensitivity": 25,
+      "programmed": 1.6,
+      "duration": 0,
+      "amount": 1.6,
+      "_head": "01101000",
+      "type": "normal",
+      "_date": "02a0351310"
+    },
+    "timestamp": "2016-02-19T21:32:02-08:00",
+    "created_at": "2016-02-19T21:32:02-08:00",
+    "carbs": "15",
+    "ratio": "9",
+    "wizard": {
+      "unknown_byte[8]": 0,
       "_type": "BolusWizard",
       "bg": 0,
-      "timestamp": "2016-02-19T21:04:15-08:00",
+      "_byte[5]": 0,
+      "unknown_byte[10]": 0,
+      "_description": "BolusWizard 2016-02-19T21:32:02 head[2], body[13] op[0x5b]",
+      "timestamp": "2016-02-19T21:32:02-08:00",
+      "_body": "0f5009195a0010000000001069",
       "bg_target_high": 105,
+      "sensitivity": 25,
+      "carb_ratio": 9,
+      "food_estimate": 1.6,
       "unabsorbed_insulin_total": 0,
+      "correction_estimate": 0,
+      "carb_input": 15,
+      "_head": "5b00",
       "unabsorbed_insulin_count": "??",
-      "_date": "0f84151310",
-      "unknown_byte[8]": 0,
-      "carb_ratio": 9
+      "_byte[7]": 0,
+      "bolus_estimate": 1.6,
+      "_date": "02a0151310",
+      "bg_target_low": 90
     },
-    "timestamp": "2016-02-19T21:04:15-08:00",
-    "created_at": "2016-02-19T21:04:15-08:00",
     "eventType": "<none>",
-    "insulin": 0,
-    "notes": "Food estimate 0\nCorrection estimate 0\nBolus estimate 0\nTarget low 90\nTarget high 105\nHypothetical glucose delta 0",
+    "insulin": "1.6",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 1.6\nDelivered bolus 1.6\nPercent delivered:  100%\nFood estimate 1.6\nCorrection estimate 0\nBolus estimate 1.6\nTarget low 90\nTarget high 105\nHypothetical glucose delta -40",
     "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
     "enteredBy": "openaps://medtronic/722"
   }
