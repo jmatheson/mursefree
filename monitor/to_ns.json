@@ -25,7 +25,7 @@
       "value": "25"
     }
   ],
-  "startDate": "2016-02-21T08:37-0800",
+  "startDate": "2016-02-21T08:40-0800",
   "timezone": "America/Los_Angeles",
   "basal": [
     {
@@ -73,6 +73,6 @@
       "time": "00:00"
     }
   ],
-  "created_at": "2016-02-21T08:38-0800",
+  "created_at": "2016-02-21T08:41-0800",
   "units": "mg/dL"
 }
