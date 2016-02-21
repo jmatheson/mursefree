@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":105,"tick":"+0","eventualBG":89,"snoozeBG":93,"mealAssist":"Off: Carbs: 0 Boluses: 1 Target: 97.5 Deviation: 2 BGI: -1.49","reason":"Eventual BG 89<90, bolus snooze: eventual BG range 89-93"}
+{"temp":"absolute","bg":104,"tick":-1,"eventualBG":91,"snoozeBG":95,"mealAssist":"Off: Carbs: 0 Boluses: 1 Target: 97.5 Deviation: 4 BGI: -1.5","reason":"91 is in range. No temp required"}
